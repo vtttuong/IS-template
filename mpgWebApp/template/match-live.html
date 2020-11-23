@@ -229,7 +229,7 @@
                     <div class="date">25 Sep 2016 <span>by</span> Mason Carrington</div>
                 </div>
                 <div class="col-md-6">
-                    <div class="event">Championship</div>
+                    <div class="event">{{league}}</div>
                 </div>
             </div>
         </div>
@@ -243,20 +243,20 @@
                 <div class="col-md-12">
 
                     <div class="match-live-info">
-                        <div class="title"> Team 1 – Team 2 </div>
+                        <div class="title">{{match.fields.stadiumname}} </div>
                         <div class="match-info">
                             <div class="team">
                                 <div class="avatar">
                                     <img src="{% static 'images/soccer/team-logo1.png' %}" alt="team-logo"></div>
                                 <div class="text">
-                                    Team 1
+                                    {{match.fields.homename}}
                                 </div>
                             </div>
                             <div class="score">
-                                0:0 </div>
+                                {{match.fields.homegoals}}:{{match.fields.awaygoals}} </div>
                             <div class="team right  wpb_animate_when_almost_visible wpb_flipInX flipInX wpb_start_animation animated">
                                 <div class="text">
-                                    Team 2
+                                    {{match.fields.awayname}}
                                 </div>
                                 <div class="avatar">
                                     <img src="{% static 'images/soccer/team-logo2.png' %}" alt="team-logo"> </div>
@@ -264,6 +264,7 @@
                         </div>
                         <div class="title">
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -310,11 +311,29 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="team">
                                 <img src="{% static 'images/common/match-list-team-img1.png' %}" alt="match-list-team-img"> Team 2
                             </div>
                         </div>
                     </div>
+                 
+                    <div class="match-stat-table">
+                        <div class="item">
+                            <div class="name" style="
+                            font-weight: bold;
+                            font-size: 15px;
+                            text-align: center;
+                        ">Prediction</div>
+                            <div class="percent">20</div>
+                            <div class="percent right">80</div>
+                            <div class="percent-bar">
+                                <div class="bar bar-2" style="width: 20%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+            
                 </div>
             </div>
         </div>

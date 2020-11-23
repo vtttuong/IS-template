@@ -1,0 +1,315 @@
+1,5,FC Koeln,1,Stuttgart,1,Mercedes-Benz-Arena,24-10-2020,01:30 24/10
+2,6,Stuttgart,1,Schalke 04,1,Veltins-Arena,31-10-2020,02:30 31/10
+3,6,Munich,2,FC Koeln,1,,31-10-2020,21:30 31/10
+4,5,Freiburg,1,Union Berlin,1,,24-10-2020,20:30 24/10
+5,5,Berlin,1,Leipzig,2,Red Bull Arena,24-10-2020,20:30 24/10
+6,6,Bremen,1,E.Frankfurt,1,Commerzbank-Arena,31-10-2020,21:30 31/10
+7,3,Mainz 05,0,Union Berlin,4,,3/10/2020,3/10/2020 1:30
+8,3,Arminia Bielefeld,0,Bremen,1,Weserstadion,3/10/2020,3/10/2020 20:30
+9,2,E.Frankfurt,3,Berlin,1,Olympiastadion Berlin,26-09-2020,01:30 26/09
+10,1,Schalke 04,0,Munich,8,Allianz Arena,19-09-2020,01:30 19/09
+11,4,Leverkusen,1,Mainz 05,0,Coface Arena,17-10-2020,20:30 17/10
+12,5,Gladbach,3,Mainz 05,2,Coface Arena,24-10-2020,20:30 24/10
+13,5,E.Frankfurt,0,Munich,5,Allianz Arena,24-10-2020,20:30 24/10
+14,5,Schalke 04,0,Dortmund,3,Signal-Iduna-Park,24-10-2020,23:30 24/10
+15,7,FC Koeln,1,Bremen,1,,7/11/2020,7/11/2020 2:30
+16,6,Mainz 05,1,Augsburg,3,Augsburg Arena,31-10-2020,21:30 31/10
+17,3,Leverkusen,1,Stuttgart,1,Mercedes-Benz-Arena,3/10/2020,3/10/2020 20:30
+18,3,Gladbach,3,FC Koeln,1,,3/10/2020,3/10/2020 20:30
+19,2,Stuttgart,4,Mainz 05,1,Coface Arena,26-09-2020,20:30 26/09
+20,2,Union Berlin,1,Gladbach,1,Borussia-Park,26-09-2020,20:30 26/09
+21,1,Berlin,4,Bremen,1,Weserstadion,19-09-2020,20:30 19/09
+22,1,Freiburg,3,Stuttgart,2,Mercedes-Benz-Arena,19-09-2020,20:30 19/09
+23,1,Augsburg,3,Union Berlin,1,,19-09-2020,20:30 19/09
+24,8,Wolfsburg,2,Schalke 04,0,Veltins-Arena,21-11-2020,21:30 21/11
+25,8,Stuttgart,3,Hoffenheim,3,WIRSOL Rhein-Neckar-Arena,21-11-2020,21:30 21/11
+26,8,Augsburg,1,Gladbach,1,Borussia-Park,21-11-2020,21:30 21/11
+27,8,Bremen,1,Munich,1,Allianz Arena,21-11-2020,21:30 21/11
+28,4,Dortmund,1,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,17-10-2020,20:30 17/10
+29,4,Stuttgart,2,Berlin,0,Olympiastadion Berlin,17-10-2020,20:30 17/10
+30,4,Bremen,1,Freiburg,1,,17-10-2020,20:30 17/10
+31,4,Leipzig,2,Augsburg,0,Augsburg Arena,17-10-2020,20:30 17/10
+32,5,Arminia Bielefeld,1,Wolfsburg,2,Volkswagen Arena,25-10-2020,21:30 25/10
+33,9,Bremen,0,Wolfsburg,0,Volkswagen Arena,28-11-2020,02:30 28/11
+34,9,Munich,0,Stuttgart,0,Mercedes-Benz-Arena,28-11-2020,21:30 28/11
+35,7,E.Frankfurt,2,Stuttgart,2,Mercedes-Benz-Arena,7/11/2020,7/11/2020 21:30
+36,6,Dortmund,2,Arminia Bielefeld,0,,31-10-2020,21:30 31/10
+37,3,Hoffenheim,1,E.Frankfurt,2,Commerzbank-Arena,3/10/2020,3/10/2020 20:30
+38,3,Freiburg,0,Dortmund,4,Signal-Iduna-Park,3/10/2020,3/10/2020 20:30
+39,3,Schalke 04,0,Leipzig,4,Red Bull Arena,3/10/2020,3/10/2020 23:30
+40,2,Leipzig,1,Leverkusen,1,BayArena,26-09-2020,20:30 26/09
+41,2,Dortmund,0,Augsburg,2,Augsburg Arena,26-09-2020,20:30 26/09
+42,1,Hoffenheim,3,FC Koeln,2,,19-09-2020,20:30 19/09
+43,8,Leverkusen,2,Arminia Bielefeld,1,,21-11-2020,21:30 21/11
+44,14,Union Berlin,0,Bremen,0,Weserstadion,2/1/2021,2/1/2020 21:30
+45,14,Freiburg,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,2/1/2021,2/1/2020 21:30
+46,10,Union Berlin,0,Berlin,0,Olympiastadion Berlin,5/12/2020,5/12/2020 2:30
+47,11,E.Frankfurt,0,Wolfsburg,0,Volkswagen Arena,12/12/2020,12/12/2020 2:30
+48,15,Munich,0,Gladbach,0,Borussia-Park,9/1/2021,9/1/2020 2:30
+49,16,Leipzig,0,Wolfsburg,0,Volkswagen Arena,16-01-2021,21:30 16/01
+50,12,Stuttgart,0,Wolfsburg,0,Volkswagen Arena,5/12/2020,5/12/2020 21:30
+51,12,Dortmund,0,Union Berlin,0,,5/12/2020,5/12/2020 21:30
+52,4,Munich,4,Arminia Bielefeld,1,,17-10-2020,23:30 17/10
+53,4,Wolfsburg,1,Gladbach,1,Borussia-Park,18-10-2020,01:30 18/10
+54,4,E.Frankfurt,1,FC Koeln,1,,18-10-2020,20:30 18/10
+55,5,Hoffenheim,1,Bremen,1,Weserstadion,26-10-2020,00:00 26/10
+56,13,Dortmund,0,Union Berlin,0,,19-12-2020,02:30 19/12
+57,13,Arminia Bielefeld,0,Schalke 04,0,Veltins-Arena,19-12-2020,21:30 19/12
+58,13,FC Koeln,0,Leipzig,0,Red Bull Arena,19-12-2020,21:30 19/12
+59,9,E.Frankfurt,0,Union Berlin,0,,28-11-2020,21:30 28/11
+60,9,Arminia Bielefeld,0,Leipzig,0,Red Bull Arena,28-11-2020,21:30 28/11
+61,9,FC Koeln,0,Dortmund,0,Signal-Iduna-Park,28-11-2020,21:30 28/11
+62,7,Arminia Bielefeld,0,Union Berlin,5,,7/11/2020,7/11/2020 21:30
+63,7,Freiburg,0,Leipzig,3,Red Bull Arena,7/11/2020,7/11/2020 21:30
+64,6,Leipzig,0,Gladbach,1,Borussia-Park,1/11/2020,1/11/2020 0:30
+65,3,Augsburg,0,Wolfsburg,0,Volkswagen Arena,4/10/2020,4/10/2020 20:30
+66,2,FC Koeln,0,Arminia Bielefeld,1,,26-09-2020,20:30 26/09
+67,2,Bremen,3,Schalke 04,1,Veltins-Arena,26-09-2020,23:30 26/09
+68,1,Arminia Bielefeld,1,E.Frankfurt,1,Commerzbank-Arena,19-09-2020,20:30 19/09
+69,8,Leipzig,1,E.Frankfurt,1,Commerzbank-Arena,22-11-2020,00:30 22/11
+70,14,Augsburg,0,FC Koeln,0,,2/1/2021,2/1/2020 21:30
+71,10,Gladbach,0,Freiburg,0,,5/12/2020,5/12/2020 21:30
+72,11,Bremen,0,Leipzig,0,Red Bull Arena,12/12/2020,12/12/2020 21:30
+73,11,FC Koeln,0,Mainz 05,0,Coface Arena,12/12/2020,12/12/2020 21:30
+74,11,Arminia Bielefeld,0,Freiburg,0,,12/12/2020,12/12/2020 21:30
+75,15,Wolfsburg,0,Union Berlin,0,,9/1/2021,9/1/2020 21:30
+76,16,Augsburg,0,Bremen,0,Weserstadion,16-01-2021,21:30 16/01
+77,16,Gladbach,0,Stuttgart,0,Mercedes-Benz-Arena,16-01-2021,21:30 16/01
+78,12,Arminia Bielefeld,0,Schalke 04,0,Veltins-Arena,5/12/2020,5/12/2020 21:30
+79,4,Union Berlin,1,Schalke 04,1,Veltins-Arena,18-10-2020,23:00 18/10
+80,17,FC Koeln,0,Schalke 04,0,Veltins-Arena,20-01-2021,21:30 20/01
+81,5,Augsburg,1,Leverkusen,3,BayArena,27-10-2020,02:30 27/10
+82,13,Bremen,0,Mainz 05,0,Coface Arena,19-12-2020,21:30 19/12
+83,9,Freiburg,0,Augsburg,0,Augsburg Arena,28-11-2020,21:30 28/11
+84,7,Schalke 04,2,Mainz 05,2,Coface Arena,7/11/2020,7/11/2020 21:30
+85,6,Leverkusen,4,Freiburg,2,,1/11/2020,1/11/2020 21:30
+86,3,Berlin,3,Munich,4,Allianz Arena,4/10/2020,4/10/2020 23:00
+87,2,Munich,1,Hoffenheim,4,WIRSOL Rhein-Neckar-Arena,27-09-2020,20:30 27/09
+88,1,Gladbach,0,Dortmund,3,Signal-Iduna-Park,19-09-2020,23:30 19/09
+89,1,Mainz 05,1,Leipzig,3,Red Bull Arena,20-09-2020,20:30 20/09
+90,8,Dortmund,5,Berlin,2,Olympiastadion Berlin,22-11-2020,02:30 22/11
+91,14,Leverkusen,0,E.Frankfurt,0,Commerzbank-Arena,2/1/2021,2/1/2020 21:30
+92,10,Wolfsburg,0,FC Koeln,0,,5/12/2020,5/12/2020 21:30
+93,11,Berlin,0,Gladbach,0,Borussia-Park,12/12/2020,12/12/2020 21:30
+94,18,Munich,0,Schalke 04,0,Veltins-Arena,23-01-2021,21:30 23/01
+95,19,Freiburg,0,Wolfsburg,0,Volkswagen Arena,30-01-2021,21:30 30/01
+96,20,Leipzig,0,Schalke 04,0,Veltins-Arena,6/2/2021,6/2/2020 21:30
+97,15,Hoffenheim,0,Schalke 04,0,Veltins-Arena,9/1/2021,9/1/2020 21:30
+98,16,Leverkusen,0,Union Berlin,0,,16-01-2021,21:30 16/01
+99,16,Arminia Bielefeld,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,16-01-2021,21:30 16/01
+100,12,FC Koeln,0,Leipzig,0,Red Bull Arena,5/12/2020,5/12/2020 21:30
+101,17,Union Berlin,0,Leipzig,0,Red Bull Arena,20-01-2021,21:30 20/01
+102,13,Hoffenheim,0,Gladbach,0,Borussia-Park,19-12-2020,21:30 19/12
+103,9,Schalke 04,0,Gladbach,0,Borussia-Park,29-11-2020,00:30 29/11
+104,9,Berlin,0,Leverkusen,0,BayArena,29-11-2020,21:30 29/11
+105,7,Berlin,3,Augsburg,0,Augsburg Arena,7/11/2020,7/11/2020 21:30
+106,7,Munich,3,Dortmund,2,Signal-Iduna-Park,8/11/2020,8/11/2020 0:30
+107,6,Wolfsburg,1,Berlin,1,Olympiastadion Berlin,2/11/2020,2/11/2020 0:00
+108,2,Wolfsburg,1,Freiburg,1,,27-09-2020,23:00 27/09
+109,1,Leverkusen,0,Wolfsburg,0,Volkswagen Arena,20-09-2020,23:00 20/09
+110,8,Mainz 05,1,Freiburg,0,,22-11-2020,21:30 22/11
+111,14,Gladbach,0,Arminia Bielefeld,0,,2/1/2021,2/1/2020 21:30
+112,14,Schalke 04,0,Berlin,0,Olympiastadion Berlin,3/1/2021,3/1/2020 0:30
+113,10,Dortmund,0,E.Frankfurt,0,Commerzbank-Arena,5/12/2020,5/12/2020 21:30
+114,11,Stuttgart,0,Dortmund,0,Signal-Iduna-Park,12/12/2020,12/12/2020 21:30
+115,18,Leipzig,0,Mainz 05,0,Coface Arena,23-01-2021,21:30 23/01
+116,19,Schalke 04,0,Bremen,0,Weserstadion,30-01-2021,21:30 30/01
+117,20,Union Berlin,0,Mainz 05,0,Coface Arena,6/2/2021,6/2/2020 21:30
+118,21,Gladbach,0,Wolfsburg,0,Volkswagen Arena,13-02-2021,21:30 13/02
+119,15,E.Frankfurt,0,Mainz 05,0,Coface Arena,9/1/2021,9/1/2020 21:30
+120,15,FC Koeln,0,Freiburg,0,,9/1/2021,9/1/2020 21:30
+121,16,Berlin,0,FC Koeln,0,,16-01-2021,21:30 16/01
+122,16,Schalke 04,0,E.Frankfurt,0,Commerzbank-Arena,16-01-2021,21:30 16/01
+123,16,Mainz 05,0,Dortmund,0,Signal-Iduna-Park,16-01-2021,21:30 16/01
+124,12,Bremen,0,Mainz 05,0,Coface Arena,5/12/2020,5/12/2020 21:30
+125,17,Wolfsburg,0,Mainz 05,0,Coface Arena,20-01-2021,21:30 20/01
+126,13,E.Frankfurt,0,Augsburg,0,Augsburg Arena,19-12-2020,21:30 19/12
+127,9,Hoffenheim,0,Mainz 05,0,Coface Arena,30-11-2020,00:00 30/11
+128,7,Hoffenheim,1,Wolfsburg,2,Volkswagen Arena,8/11/2020,8/11/2020 21:30
+129,6,Union Berlin,3,Hoffenheim,1,WIRSOL Rhein-Neckar-Arena,3/11/2020,3/11/2020 2:30
+130,8,Union Berlin,0,FC Koeln,0,,23-11-2020,00:00 23/11
+131,14,Leipzig,0,Stuttgart,0,Mercedes-Benz-Arena,3/1/2021,3/1/2020 2:30
+132,22,Dortmund,0,Schalke 04,0,Veltins-Arena,20-02-2021,21:30 20/02
+133,10,Mainz 05,0,Arminia Bielefeld,0,,5/12/2020,5/12/2020 21:30
+134,11,Munich,0,Union Berlin,0,,13-12-2020,00:30 13/12
+135,18,FC Koeln,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,23-01-2021,21:30 23/01
+136,19,Mainz 05,0,Stuttgart,0,Mercedes-Benz-Arena,30-01-2021,21:30 30/01
+137,20,E.Frankfurt,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,6/2/2021,6/2/2020 21:30
+138,20,Munich,0,Berlin,0,Olympiastadion Berlin,6/2/2021,6/2/2020 21:30
+139,20,Dortmund,0,Freiburg,0,,6/2/2021,6/2/2020 21:30
+140,21,Freiburg,0,Bremen,0,Weserstadion,13-02-2021,21:30 13/02
+141,21,Berlin,0,Stuttgart,0,Mercedes-Benz-Arena,13-02-2021,21:30 13/02
+142,21,Schalke 04,0,Union Berlin,0,,13-02-2021,21:30 13/02
+143,21,Augsburg,0,Leipzig,0,Red Bull Arena,13-02-2021,21:30 13/02
+144,21,FC Koeln,0,E.Frankfurt,0,Commerzbank-Arena,13-02-2021,21:30 13/02
+145,15,Bremen,0,Leverkusen,0,BayArena,9/1/2021,9/1/2020 21:30
+146,16,Freiburg,0,Munich,0,Allianz Arena,16-01-2021,21:30 16/01
+147,12,Berlin,0,Freiburg,0,,5/12/2020,5/12/2020 21:30
+148,17,Hoffenheim,0,Berlin,0,Olympiastadion Berlin,20-01-2021,21:30 20/01
+149,17,E.Frankfurt,0,Freiburg,0,,20-01-2021,21:30 20/01
+150,13,Munich,0,Leverkusen,0,BayArena,20-12-2020,00:30 20/12
+151,7,Gladbach,3,Leverkusen,4,BayArena,9/11/2020,9/11/2020 0:00
+152,14,Wolfsburg,0,Dortmund,0,Signal-Iduna-Park,3/1/2021,3/1/2020 21:30
+153,14,Mainz 05,0,Munich,0,Allianz Arena,4/1/2021,4/1/2020 0:00
+154,22,Bremen,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,20-02-2021,21:30 20/02
+155,22,Leipzig,0,Berlin,0,Olympiastadion Berlin,20-02-2021,21:30 20/02
+156,22,Union Berlin,0,Freiburg,0,,20-02-2021,21:30 20/02
+157,10,Leipzig,0,Munich,0,Allianz Arena,6/12/2020,6/12/2020 0:30
+158,11,Schalke 04,0,Augsburg,0,Augsburg Arena,13-12-2020,21:30 13/12
+159,11,Hoffenheim,0,Leverkusen,0,BayArena,14-12-2020,00:00 14/12
+160,23,Berlin,0,Wolfsburg,0,Volkswagen Arena,27-02-2021,21:30 27/02
+161,18,Bremen,0,Berlin,0,Olympiastadion Berlin,23-01-2021,21:30 23/01
+162,19,Gladbach,0,Union Berlin,0,,30-01-2021,21:30 30/01
+163,20,FC Koeln,0,Gladbach,0,Borussia-Park,6/2/2021,6/2/2020 21:30
+164,21,Hoffenheim,0,Dortmund,0,Signal-Iduna-Park,13-02-2021,21:30 13/02
+165,21,Arminia Bielefeld,0,Munich,0,Allianz Arena,13-02-2021,21:30 13/02
+166,15,Dortmund,0,Leipzig,0,Red Bull Arena,10/1/2021,10/1/2020 0:30
+167,12,Hoffenheim,0,Gladbach,0,Borussia-Park,5/12/2020,5/12/2020 21:30
+168,17,Bremen,0,Gladbach,0,Borussia-Park,20-01-2021,21:30 20/01
+169,13,Berlin,0,Freiburg,0,,20-12-2020,21:30 20/12
+170,22,Stuttgart,0,FC Koeln,0,,20-02-2021,21:30 20/02
+171,22,Munich,0,E.Frankfurt,0,Commerzbank-Arena,20-02-2021,21:30 20/02
+172,24,Mainz 05,0,Schalke 04,0,Veltins-Arena,6/3/2021,6/3/2020 21:30
+173,24,Wolfsburg,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,6/3/2021,6/3/2020 21:30
+174,10,Stuttgart,0,Bremen,0,Weserstadion,6/12/2020,6/12/2020 21:30
+175,23,E.Frankfurt,0,Bremen,0,Weserstadion,27-02-2021,21:30 27/02
+176,18,Stuttgart,0,Freiburg,0,,23-01-2021,21:30 23/01
+177,19,Leverkusen,0,Leipzig,0,Red Bull Arena,30-01-2021,21:30 30/01
+178,20,Stuttgart,0,Leverkusen,0,BayArena,6/2/2021,6/2/2020 21:30
+179,20,Wolfsburg,0,Augsburg,0,Augsburg Arena,6/2/2021,6/2/2020 21:30
+180,21,Mainz 05,0,Leverkusen,0,BayArena,13-02-2021,21:30 13/02
+181,15,Stuttgart,0,Augsburg,0,Augsburg Arena,10/1/2021,10/1/2020 21:30
+182,12,Munich,0,Leverkusen,0,BayArena,5/12/2020,5/12/2020 21:30
+183,17,Dortmund,0,Leverkusen,0,BayArena,20-01-2021,21:30 20/01
+184,17,Munich,0,Augsburg,0,Augsburg Arena,20-01-2021,21:30 20/01
+185,13,Stuttgart,0,Wolfsburg,0,Volkswagen Arena,21-12-2020,00:00 21/12
+186,22,Mainz 05,0,Gladbach,0,Borussia-Park,20-02-2021,21:30 20/02
+187,24,Augsburg,0,Berlin,0,Olympiastadion Berlin,6/3/2021,6/3/2020 21:30
+188,24,Leipzig,0,Freiburg,0,,6/3/2021,6/3/2020 21:30
+189,10,Leverkusen,0,Schalke 04,0,Veltins-Arena,7/12/2020,7/12/2020 0:00
+190,25,Schalke 04,0,Wolfsburg,0,Volkswagen Arena,13-03-2021,21:30 13/03
+191,23,Schalke 04,0,Stuttgart,0,Mercedes-Benz-Arena,27-02-2021,21:30 27/02
+192,18,Dortmund,0,Gladbach,0,Borussia-Park,23-01-2021,21:30 23/01
+193,19,Arminia Bielefeld,0,FC Koeln,0,,30-01-2021,21:30 30/01
+194,19,Berlin,0,E.Frankfurt,0,Commerzbank-Arena,30-01-2021,21:30 30/01
+195,20,Bremen,0,Arminia Bielefeld,0,,6/2/2021,6/2/2020 21:30
+196,15,Berlin,0,Arminia Bielefeld,0,,11/1/2021,11/1/2020 0:00
+197,12,E.Frankfurt,0,Augsburg,0,Augsburg Arena,5/12/2020,5/12/2020 21:30
+198,17,Stuttgart,0,Arminia Bielefeld,0,,20-01-2021,21:30 20/01
+199,22,Leverkusen,0,Augsburg,0,Augsburg Arena,20-02-2021,21:30 20/02
+200,24,Bremen,0,FC Koeln,0,,6/3/2021,6/3/2020 21:30
+201,10,Augsburg,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,8/12/2020,8/12/2020 2:30
+202,26,Wolfsburg,0,Bremen,0,Weserstadion,20-03-2021,21:30 20/03
+203,26,Gladbach,0,Schalke 04,0,Veltins-Arena,20-03-2021,21:30 20/03
+204,25,Munich,0,Bremen,0,Weserstadion,13-03-2021,21:30 13/03
+205,25,Hoffenheim,0,Stuttgart,0,Mercedes-Benz-Arena,13-03-2021,21:30 13/03
+206,23,Hoffenheim,0,Union Berlin,0,,27-02-2021,21:30 27/02
+207,18,Wolfsburg,0,Leverkusen,0,BayArena,23-01-2021,21:30 23/01
+208,18,Union Berlin,0,Augsburg,0,Augsburg Arena,23-01-2021,21:30 23/01
+209,19,Augsburg,0,Dortmund,0,Signal-Iduna-Park,30-01-2021,21:30 30/01
+210,19,Hoffenheim,0,Munich,0,Allianz Arena,30-01-2021,21:30 30/01
+211,12,Gladbach,0,E.Frankfurt,0,Commerzbank-Arena,16-12-2020,00:30 16/12
+212,12,Dortmund,0,Bremen,0,Weserstadion,16-12-2020,02:30 16/12
+213,22,Wolfsburg,0,Arminia Bielefeld,0,,20-02-2021,21:30 20/02
+214,24,Stuttgart,0,E.Frankfurt,0,Commerzbank-Arena,6/3/2021,6/3/2020 21:30
+215,26,Mainz 05,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,20-03-2021,21:30 20/03
+216,27,FC Koeln,0,Wolfsburg,0,Volkswagen Arena,3/4/2021,3/4/2020 20:30
+217,25,FC Koeln,0,Union Berlin,0,,13-03-2021,21:30 13/03
+218,25,E.Frankfurt,0,Leipzig,0,Red Bull Arena,13-03-2021,21:30 13/03
+219,23,Gladbach,0,Leipzig,0,Red Bull Arena,27-02-2021,21:30 27/02
+220,18,E.Frankfurt,0,Arminia Bielefeld,0,,23-01-2021,21:30 23/01
+221,12,Union Berlin,0,Stuttgart,0,Mercedes-Benz-Arena,16-12-2020,02:30 16/12
+222,24,Leverkusen,0,Gladbach,0,Borussia-Park,6/3/2021,6/3/2020 21:30
+223,26,Leverkusen,0,Berlin,0,Olympiastadion Berlin,20-03-2021,21:30 20/03
+224,27,Bremen,0,Stuttgart,0,Mercedes-Benz-Arena,3/4/2021,3/4/2020 20:30
+225,28,Leipzig,0,Bremen,0,Weserstadion,10/4/2021,10/4/2020 20:30
+226,25,Freiburg,0,Mainz 05,0,Coface Arena,13-03-2021,21:30 13/03
+227,25,Berlin,0,Dortmund,0,Signal-Iduna-Park,13-03-2021,21:30 13/03
+228,23,Augsburg,0,Mainz 05,0,Coface Arena,27-02-2021,21:30 27/02
+229,12,Mainz 05,0,Berlin,0,Olympiastadion Berlin,16-12-2020,02:30 16/12
+230,24,Dortmund,0,Munich,0,Allianz Arena,6/3/2021,6/3/2020 21:30
+231,24,Union Berlin,0,Arminia Bielefeld,0,,6/3/2021,6/3/2020 21:30
+232,26,Augsburg,0,Freiburg,0,,20-03-2021,21:30 20/03
+233,27,Berlin,0,Union Berlin,0,,3/4/2021,3/4/2020 20:30
+234,28,Dortmund,0,Stuttgart,0,Mercedes-Benz-Arena,10/4/2021,10/4/2020 20:30
+235,29,Munich,0,Wolfsburg,0,Volkswagen Arena,17-04-2021,20:30 17/04
+236,25,Arminia Bielefeld,0,Leverkusen,0,BayArena,13-03-2021,21:30 13/03
+237,23,Arminia Bielefeld,0,Dortmund,0,Signal-Iduna-Park,27-02-2021,21:30 27/02
+238,12,Freiburg,0,Schalke 04,0,Veltins-Arena,17-12-2020,00:30 17/12
+239,12,Leipzig,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,17-12-2020,02:30 17/12
+240,26,Dortmund,0,FC Koeln,0,,20-03-2021,21:30 20/03
+241,26,Union Berlin,0,E.Frankfurt,0,Commerzbank-Arena,20-03-2021,21:30 20/03
+242,27,Munich,0,Leipzig,0,Red Bull Arena,3/4/2021,3/4/2020 20:30
+243,30,Mainz 05,0,Bremen,0,Weserstadion,21-04-2021,20:30 21/04
+244,28,Augsburg,0,Schalke 04,0,Veltins-Arena,10/4/2021,10/4/2020 20:30
+245,29,Stuttgart,0,Union Berlin,0,,17-04-2021,20:30 17/04
+246,25,Gladbach,0,Augsburg,0,Augsburg Arena,13-03-2021,21:30 13/03
+247,23,FC Koeln,0,Munich,0,Allianz Arena,27-02-2021,21:30 27/02
+248,12,Leverkusen,0,FC Koeln,0,,17-12-2020,02:30 17/12
+249,12,Wolfsburg,0,Munich,0,Allianz Arena,17-12-2020,02:30 17/12
+250,26,Stuttgart,0,Munich,0,Allianz Arena,20-03-2021,21:30 20/03
+251,31,Dortmund,0,Wolfsburg,0,Volkswagen Arena,24-04-2021,20:30 24/04
+252,27,Arminia Bielefeld,0,Mainz 05,0,Coface Arena,3/4/2021,3/4/2020 20:30
+253,27,Freiburg,0,Gladbach,0,Borussia-Park,3/4/2021,3/4/2020 20:30
+254,30,Wolfsburg,0,Stuttgart,0,Mercedes-Benz-Arena,21-04-2021,20:30 21/04
+255,28,Leverkusen,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,10/4/2021,10/4/2020 20:30
+256,29,Hoffenheim,0,Leipzig,0,Red Bull Arena,17-04-2021,20:30 17/04
+257,29,Berlin,0,Mainz 05,0,Coface Arena,17-04-2021,20:30 17/04
+258,23,Freiburg,0,Leverkusen,0,BayArena,27-02-2021,21:30 27/02
+259,12,Augsburg,0,Arminia Bielefeld,0,,17-12-2020,02:30 17/12
+260,26,Leipzig,0,Arminia Bielefeld,0,,20-03-2021,21:30 20/03
+261,31,Bremen,0,Union Berlin,0,,24-04-2021,20:30 24/04
+262,27,E.Frankfurt,0,Dortmund,0,Signal-Iduna-Park,3/4/2021,3/4/2020 20:30
+263,27,Schalke 04,0,Leverkusen,0,BayArena,3/4/2021,3/4/2020 20:30
+264,32,Union Berlin,0,Wolfsburg,0,Volkswagen Arena,8/5/2021,8/5/2020 20:30
+265,30,Gladbach,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,21-04-2021,20:30 21/04
+266,28,Gladbach,0,Berlin,0,Olympiastadion Berlin,10/4/2021,10/4/2020 20:30
+267,28,Mainz 05,0,FC Koeln,0,,10/4/2021,10/4/2020 20:30
+268,29,Schalke 04,0,Freiburg,0,,17-04-2021,20:30 17/04
+269,31,Berlin,0,Schalke 04,0,Veltins-Arena,24-04-2021,20:30 24/04
+270,27,Hoffenheim,0,Augsburg,0,Augsburg Arena,3/4/2021,3/4/2020 20:30
+271,33,E.Frankfurt,0,Schalke 04,0,Veltins-Arena,15-05-2021,20:30 15/05
+272,32,Leverkusen,0,Bremen,0,Weserstadion,8/5/2021,8/5/2020 20:30
+273,30,Freiburg,0,Berlin,0,Olympiastadion Berlin,21-04-2021,20:30 21/04
+274,30,Leipzig,0,FC Koeln,0,,21-04-2021,20:30 21/04
+275,28,Wolfsburg,0,E.Frankfurt,0,Commerzbank-Arena,10/4/2021,10/4/2020 20:30
+276,28,Union Berlin,0,Munich,0,Allianz Arena,10/4/2021,10/4/2020 20:30
+277,29,E.Frankfurt,0,Gladbach,0,Borussia-Park,17-04-2021,20:30 17/04
+278,29,Bremen,0,Dortmund,0,Signal-Iduna-Park,17-04-2021,20:30 17/04
+279,31,Stuttgart,0,Leipzig,0,Red Bull Arena,24-04-2021,20:30 24/04
+280,34,Mainz 05,0,Wolfsburg,0,Volkswagen Arena,22-05-2021,20:30 22/05
+281,34,Gladbach,0,Bremen,0,Weserstadion,22-05-2021,20:30 22/05
+282,33,Wolfsburg,0,Leipzig,0,Red Bull Arena,15-05-2021,20:30 15/05
+283,32,Augsburg,0,Stuttgart,0,Mercedes-Benz-Arena,8/5/2021,8/5/2020 20:30
+284,30,Augsburg,0,E.Frankfurt,0,Commerzbank-Arena,21-04-2021,20:30 21/04
+285,28,Freiburg,0,Arminia Bielefeld,0,,10/4/2021,10/4/2020 20:30
+286,29,FC Koeln,0,Leverkusen,0,BayArena,17-04-2021,20:30 17/04
+287,31,Munich,0,Mainz 05,0,Coface Arena,24-04-2021,20:30 24/04
+288,34,Arminia Bielefeld,0,Stuttgart,0,Mercedes-Benz-Arena,22-05-2021,20:30 22/05
+289,34,Leipzig,0,Union Berlin,0,,22-05-2021,20:30 22/05
+290,33,Dortmund,0,Mainz 05,0,Coface Arena,15-05-2021,20:30 15/05
+291,32,Schalke 04,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,8/5/2021,8/5/2020 20:30
+292,32,Arminia Bielefeld,0,Berlin,0,Olympiastadion Berlin,8/5/2021,8/5/2020 20:30
+293,30,Union Berlin,0,Dortmund,0,Signal-Iduna-Park,21-04-2021,20:30 21/04
+294,29,Arminia Bielefeld,0,Augsburg,0,Augsburg Arena,17-04-2021,20:30 17/04
+295,31,Hoffenheim,0,Freiburg,0,,24-04-2021,20:30 24/04
+296,34,Berlin,0,Hoffenheim,0,WIRSOL Rhein-Neckar-Arena,22-05-2021,20:30 22/05
+297,33,FC Koeln,0,Berlin,0,Olympiastadion Berlin,15-05-2021,20:30 15/05
+298,32,Freiburg,0,FC Koeln,0,,8/5/2021,8/5/2020 20:30
+299,30,Leverkusen,0,Munich,0,Allianz Arena,21-04-2021,20:30 21/04
+300,31,Arminia Bielefeld,0,Gladbach,0,Borussia-Park,24-04-2021,20:30 24/04
+301,34,Schalke 04,0,FC Koeln,0,,22-05-2021,20:30 22/05
+302,34,Freiburg,0,E.Frankfurt,0,Commerzbank-Arena,22-05-2021,20:30 22/05
+303,33,Munich,0,Freiburg,0,,15-05-2021,20:30 15/05
+304,33,Stuttgart,0,Gladbach,0,Borussia-Park,15-05-2021,20:30 15/05
+305,32,Mainz 05,0,E.Frankfurt,0,Commerzbank-Arena,8/5/2021,8/5/2020 20:30
+306,30,Schalke 04,0,Arminia Bielefeld,0,,21-04-2021,20:30 21/04
+307,31,E.Frankfurt,0,Leverkusen,0,BayArena,24-04-2021,20:30 24/04
+308,34,Leverkusen,0,Dortmund,0,Signal-Iduna-Park,22-05-2021,20:30 22/05
+309,33,Union Berlin,0,Leverkusen,0,BayArena,15-05-2021,20:30 15/05
+310,33,Bremen,0,Augsburg,0,Augsburg Arena,15-05-2021,20:30 15/05
+311,32,Leipzig,0,Dortmund,0,Signal-Iduna-Park,8/5/2021,8/5/2020 20:30
+312,32,Gladbach,0,Munich,0,Allianz Arena,8/5/2021,8/5/2020 20:30
+313,31,FC Koeln,0,Augsburg,0,Augsburg Arena,24-04-2021,20:30 24/04
+314,34,Augsburg,0,Munich,0,Allianz Arena,22-05-2021,20:30 22/05
+315,33,Hoffenheim,0,Arminia Bielefeld,0,,15-05-2021,20:30 15/05
