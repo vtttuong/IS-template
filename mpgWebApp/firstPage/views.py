@@ -15,6 +15,17 @@ def index(request):
         'match_num': len(match_list),
         'matches': match_list,
         }
+    # context = {
+    #     'league': league,
+    #     'round': []
+    # }
+    # for i in range(1,35):
+    #     match_list = json.loads(serializers.serialize("json", Match.objects.filter(round=round)))
+    #     context["round"].append({
+    #         'round': round,
+    #         'match_num': len(match_list),
+    #         'matches': match_list,
+    #         })
     return render(request,'matches.html', context=context)   
 
 def match_detail(request, league, round, match_id):

@@ -412,7 +412,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="main-lates-matches">
+                    <div class="main-lates-matches" id="round1">
                         {% for match in matches %}
                         <a href="/{{league}}/{{round}}/{{ match.pk }}/" class="item">
                             <span class="championship">{{league}}</span>
@@ -619,7 +619,46 @@
 
     <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 
-
+    <script>
+        $('#round').change(function(){
+            var round = $(this).val();
+            // console.log(round);
+            // if (round!=1){
+            //     $('#round1').hide();
+            // }
+            // if(round==1){
+            //     $('#round1').show();
+            // }
+            url = "/{{league}}/" + round
+            // console.log(url)
+            $.ajax({
+                url: "/{{league}}/" + round,
+                data: {
+                    format: 'json'
+                },
+                error: function() {
+                   
+                },
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data)
+                    data['matches'].forEach(match => {
+                        
+                    });
+                    for (let index = 1; index <= data["match_num"]; index++) {
+                        var element = data['matches'][index-1]['fields']
+                        console.log(data['matches'][index-1]['fields'])
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(2)").text(element['homename']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(1)").text(element['awayname']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.score > span").text(element['homegoals']+':'+element['awaygoals']);
+                        $("#round1 > a:nth-child(" + index + ") > span.game-result").text(element['starttime']);
+                    }
+                },
+                type: 'GET'
+            });
+        });
+    </script>
+    
 
     <!--DEMO SWITCHER BEGIN-->
     <!-- <a class="demo-switcher-small-button">
