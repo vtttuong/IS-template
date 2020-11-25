@@ -9,8 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Team HTML</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="{% static 'css/library/bootstrap.css' %}" rel="stylesheet" type="text/css" />
     <link href="{% static 'dev-assets/preloader-default.css' %}" rel="stylesheet" type="text/css" />
@@ -97,10 +96,8 @@
     <!--MAIN MENU WRAP BEGIN-->
     <div class="main-menu-wrap sticky-menu">
         <div class="container">
-            <a href="index-2.html" class="custom-logo-link"><img src="{% static 'images/soccer/logo.png' %}" alt="logo"
-                    class="custom-logo" /></a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#team-menu"
-                aria-expanded="false">
+            <a href="index-2.html" class="custom-logo-link"><img src="{% static 'images/soccer/logo.png' %}" alt="logo" class="custom-logo" /></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#team-menu" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -218,9 +215,7 @@
                                             <a href="#"><i class="fa fa-close" aria-hidden="true"></i></a>
                                         </td>
                                         <td class="info">
-                                            <img class="product-image"
-                                                src="{% static 'images/common/cart-product.jpg' %}"
-                                                alt="product-image" />
+                                            <img class="product-image" src="{% static 'images/common/cart-product.jpg' %}" alt="product-image" />
                                             <em>Men's T-Shirt<br /><em class="price">1 x £ 60</em></em>
                                         </td>
                                     </tr>
@@ -229,9 +224,7 @@
                                             <a href="#"><i class="fa fa-close" aria-hidden="true"></i></a>
                                         </td>
                                         <td class="info">
-                                            <img class="product-image"
-                                                src="{% static 'images/common/cart-product.jpg' %}"
-                                                alt="product-image" />
+                                            <img class="product-image" src="{% static 'images/common/cart-product.jpg' %}" alt="product-image" />
                                             <em>Men's T-Shirt<br /><em class="price">1 x £ 60</em></em>
                                         </td>
                                     </tr>
@@ -308,26 +301,24 @@
                         <div class="tab-pane active" id="bundesliga">
                             <div class="amateurs-main-match">
                                 <div class="title">Bundesliga - Round 1</div>
-                                <a href="matches.html" class="team">
-                                    <span class="image"><img src="{% static 'images/soccer/team-logo3.png' %}"
+                                <a href="/{{series_slug}}/{{round}}/{{ best_match.pk }}/" class="team">
+                                    <span class="image"><img src="{{best_match.homelogo}}"
                                             alt="main-match" /></span>
                                     <span class="info">
-                                        <span class="name">Internacional</span>
-                                        <span class="city">london</span>
+                                        <span class="name">{{best_match.homename}}</span>
                                     </span>
                                 </a>
                                 <div class="score">
-                                    <span>3:2</span>
+                                    <span>{{best_match.homegoals}}:{{best_match.awaygoals}}</span>
                                 </div>
-                                <a href="matches.html" class="team guest">
+                                <a href="/{{series_slug}}/{{round}}/{{ best_match.pk }}/" class="team guest">
                                     <span class="info">
-                                        <span class="name">Arsenalp</span>
-                                        <span class="city">Lyon</span>
+                                        <span class="name">{{best_match.awayname}}</span>
                                     </span>
-                                    <span class="image"><img src="{% static 'images/soccer/team-logo4.png' %}"
+                                    <span class="image"><img src="{{best_match.awaylogo}}"
                                             alt="main-match" /></span>
                                 </a>
-                                <div class="title">26 september / 8:45 PM</div>
+                                <div class="title">{{best_match.startdate}}</div>
                             </div>
                         </div>
                         <div class="tab-pane" id="premierleague">
@@ -338,7 +329,7 @@
                                             alt="main-match" /></span>
                                     <span class="info">
                                         <span class="name">Internacional</span>
-                                        <span class="city">london</span>
+                                    <span class="city">london</span>
                                     </span>
                                 </a>
                                 <div class="score">
@@ -347,7 +338,7 @@
                                 <a href="matches.html" class="team guest">
                                     <span class="info">
                                         <span class="name">Arsenalp</span>
-                                        <span class="city">Lyon</span>
+                                    <span class="city">Lyon</span>
                                     </span>
                                     <span class="image"><img src="{% static 'images/soccer/team-logo4.png' %}"
                                             alt="main-match" /></span>
@@ -363,7 +354,7 @@
                                             alt="main-match" /></span>
                                     <span class="info">
                                         <span class="name">Team 1</span>
-                                        <span class="city">london</span>
+                                    <span class="city">london</span>
                                     </span>
                                 </a>
                                 <div class="score">
@@ -372,7 +363,7 @@
                                 <a href="matches.html" class="team guest">
                                     <span class="info">
                                         <span class="name">Team 2</span>
-                                        <span class="city">London</span>
+                                    <span class="city">London</span>
                                     </span>
                                     <span class="image"><img src="{% static 'images/soccer/team-logo2.png' %}"
                                             alt="main-match" /></span>
@@ -388,7 +379,7 @@
                                             alt="main-match" /></span>
                                     <span class="info">
                                         <span class="name">Team 1</span>
-                                        <span class="city">london</span>
+                                    <span class="city">london</span>
                                     </span>
                                 </a>
                                 <div class="score">
@@ -397,7 +388,7 @@
                                 <a href="matches.html" class="team guest">
                                     <span class="info">
                                         <span class="name">Team 2</span>
-                                        <span class="city">London</span>
+                                    <span class="city">London</span>
                                     </span>
                                     <span class="image"><img src="{% static 'images/soccer/team-logo2.png' %}"
                                             alt="main-match" /></span>
@@ -442,16 +433,16 @@
                                     <span>
                                         <img src="{{match.fields.homelogo}}" alt="team-image" />
                                     </span>
-                                    <span>{{match.fields.homename}}</span>
-                                </span>
-                                <span class="score">
+                            <span>{{match.fields.homename}}</span>
+                            </span>
+                            <span class="score">
                                     <span>{{match.fields.homegoals}}:{{match.fields.awaygoals}}</span>
-                                </span>
-                                <span class="team1">
+                            </span>
+                            <span class="team1">
                                     <span>{{match.fields.awayname}}</span>
-                                    <span><img src="{{match.fields.awaylogo}}"
+                            <span><img src="{{match.fields.awaylogo}}"
                                             alt="team-image" /></span>
-                                </span>
+                            </span>
                             </span>
                             <span class="game-result" style="
                             font-size: 12px;
@@ -460,7 +451,7 @@
                             ">{{match.fields.startdate}}</span>
                         </a>
                         {% endfor %}
-                        
+
                     </div>
                 </div>
             </div>
@@ -477,11 +468,9 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="footer-left">
                             <div class="wrap">
-                                <a href="index-2.html" class="foot-logo"><img
-                                        src="{% static 'images/soccer/footer-logo.png' %}" alt="footer-logo" /></a>
+                                <a href="index-2.html" class="foot-logo"><img src="{% static 'images/soccer/footer-logo.png' %}" alt="footer-logo" /></a>
                                 <p>
-                                    Activated charcoal trust fund ugh prism af, beard marfa air
-                                    plant stumptown gastropub farm-to-table jianbing.
+                                    Activated charcoal trust fund ugh prism af, beard marfa air plant stumptown gastropub farm-to-table jianbing.
                                 </p>
                                 <ul class="foot-left-menu">
                                     <li><a href="staff.html">First team</a></li>
@@ -497,8 +486,7 @@
                         <div class="foot-news">
                             <h4>Recent news</h4>
                             <div class="item">
-                                <a href="news.html" class="image"><img class="img-responsive"
-                                        src="{% static 'images/soccer/foot-news-img.jpg' %}" alt="news-image" /></a>
+                                <a href="news.html" class="image"><img class="img-responsive" src="{% static 'images/soccer/foot-news-img.jpg' %}" alt="news-image" /></a>
                                 <a href="news.html" class="name">When somersaulting Sanchez shouldered Mexico’s
                                     hopes</a>
                                 <a href="news.html" class="date">25 Sep 2016</a>
@@ -517,8 +505,7 @@
                                         Britain</span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i><a
-                                        href="mailto:team@email.com">team@email.com</a>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:team@email.com">team@email.com</a>
                                 </li>
                                 <li class="phone">
                                     <i class="fa fa-phone" aria-hidden="true"></i><span>+61 3 8376 6284</span>
@@ -642,11 +629,11 @@
 
     <script>
         console.log("xyz")
-        $('.tab-filters > li > a').click(function(){
+        $('.tab-filters > li > a').click(function() {
             console.log($(this).text())
         });
 
-        $('#round').change(function(){
+        $('#round').change(function() {
             var round = $(this).val();
             // console.log(round);
             // if (round!=1){
@@ -656,29 +643,36 @@
             //     $('#round1').show();
             // }
             url = "/{{series}}/" + round
-            // console.log(url)
+                // console.log(url)
             $.ajax({
                 url: "/{{series}}/" + round,
                 data: {
                     format: 'json'
                 },
                 error: function() {
-                   
+
                 },
                 dataType: 'json',
                 success: function(data) {
                     console.log(data)
+                    var title = data['best_match']['fields']['series'] + ' - Round ' + data['best_match']['fields']['round']
+                    $("#bundesliga > div > div:nth-child(1)").text(title);
+                    $("#bundesliga > div > a:nth-child(2) > span.image > img").attr("src", data['best_match']['fields']['homelogo']);
+                    $("#bundesliga > div > a:nth-child(2) > span.info > span").text(data['best_match']['fields']['homename']);
+                    $("#bundesliga > div > div.score > span").text(data['best_match']['fields']['homegoals'] + ':' + data['best_match']['fields']['awaygoals']);
+                    $("#bundesliga > div > a.team.guest > span.info > span").text(data['best_match']['fields']['awayname']);
+                    $("#bundesliga > div > a.team.guest > span.image > img").attr("src", data['best_match']['fields']['awaylogo']);
+                    $("#bundesliga > div > div:nth-child(5)").text(data['best_match']['fields']['startdate']);
                     data['matches'].forEach(match => {
-                        
+
                     });
                     for (let index = 1; index <= data["match_num"]; index++) {
-                        var element = data['matches'][index-1]['fields']
-                        console.log(data['matches'][index-1]['fields'])
+                        var element = data['matches'][index - 1]['fields']
                         $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(2)").text(element['homename']);
-                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(1) > img").attr("src",element['homelogo']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(1) > img").attr("src", element['homelogo']);
                         $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(1)").text(element['awayname']);
-                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(2) > img").attr("src",element['awaylogo']);
-                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.score > span").text(element['homegoals']+':'+element['awaygoals']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(2) > img").attr("src", element['awaylogo']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.score > span").text(element['homegoals'] + ':' + element['awaygoals']);
                         $("#round1 > a:nth-child(" + index + ") > span.game-result").text(element['startdate']);
                     }
                 },
@@ -686,7 +680,7 @@
             });
         });
     </script>
-    
+
 
     <!--DEMO SWITCHER BEGIN-->
     <!-- <a class="demo-switcher-small-button">
