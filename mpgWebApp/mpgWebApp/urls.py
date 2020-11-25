@@ -21,6 +21,6 @@ from firstPage import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url('^$', views.index, name='Homepage'),
-    path('<str:league>/<int:round>/', views.matches),
-    path('<str:league>/<int:round>/<int:match_id>/', views.match_detail, name='match_detail'),
+    path('<str:series>/<int:round>/', views.matches),
+    path('<str:series>/<int:round>/<int:match_id>/', views.match_detail, name='match_detail'),
 ]

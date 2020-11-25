@@ -281,20 +281,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h5>Next matches</h5>
+                    <h5>Series</h5>
                 </div>
                 <div class="col-md-10 col-sm-9 col-xs-9"></div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <ul class="tab-filters" role="tablist">
+                    <ul id="tab-series" class="tab-filters" role="tablist">
                         <li class="active">
-                            <a href="#all" role="tab" data-toggle="tab" aria-expanded="true">All</a>
-                        </li>
-                        <li>
-                            <a href="#premierleague" role="tab" data-toggle="tab" aria-expanded="true">Premier
-                                league</a>
-                        </li>
-                        <li>
                             <a href="#bundesliga" role="tab" data-toggle="tab" aria-expanded="true">Bundesliga</a>
+                        </li>
+                        <li>
+                            <a href="#premierleague" role="tab" data-toggle="tab" aria-expanded="true">Premier League</a>
+                        </li>
+                        <li>
+                            <a href="#laliga" role="tab" data-toggle="tab" aria-expanded="true">La Liga</a>
+                        </li>
+                        <li>
+                            <a href="#seriea" role="tab" data-toggle="tab" aria-expanded="true">Serie A</a>
                         </li>
                         <!-- <li><a href="#premierleague" role="tab" data-toggle="tab" aria-expanded="true">Premier league</a></li>
                         <li><a href="#laliga" role="tab" data-toggle="tab" aria-expanded="true">La Liga</a></li>
@@ -303,32 +305,7 @@
                     </ul>
 
                     <div class="tab-content">
-                        <div class="tab-pane active" id="all">
-                            <div class="amateurs-main-match">
-                                <div class="title">Premier League - Round 28</div>
-                                <a href="matches.html" class="team">
-                                    <span class="image"><img src="{% static 'images/soccer/team-logo1.png' %}"
-                                            alt="main-match" /></span>
-                                    <span class="info">
-                                        <span class="name">Team 1</span>
-                                        <span class="city">london</span>
-                                    </span>
-                                </a>
-                                <div class="score">
-                                    <span>3:2</span>
-                                </div>
-                                <a href="matches.html" class="team guest">
-                                    <span class="info">
-                                        <span class="name">Team 2</span>
-                                        <span class="city">London</span>
-                                    </span>
-                                    <span class="image"><img src="{% static 'images/soccer/team-logo2.png' %}"
-                                            alt="main-match" /></span>
-                                </a>
-                                <div class="title">26 september / 8:45 PM</div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="bundesliga">
+                        <div class="tab-pane active" id="bundesliga">
                             <div class="amateurs-main-match">
                                 <div class="title">Bundesliga - Round 1</div>
                                 <a href="matches.html" class="team">
@@ -378,6 +355,56 @@
                                 <div class="title">26 september / 8:45 PM</div>
                             </div>
                         </div>
+                        <div class="tab-pane" id="laliga">
+                            <div class="amateurs-main-match">
+                                <div class="title">Premier League - Round 28</div>
+                                <a href="matches.html" class="team">
+                                    <span class="image"><img src="{% static 'images/soccer/team-logo1.png' %}"
+                                            alt="main-match" /></span>
+                                    <span class="info">
+                                        <span class="name">Team 1</span>
+                                        <span class="city">london</span>
+                                    </span>
+                                </a>
+                                <div class="score">
+                                    <span>3:2</span>
+                                </div>
+                                <a href="matches.html" class="team guest">
+                                    <span class="info">
+                                        <span class="name">Team 2</span>
+                                        <span class="city">London</span>
+                                    </span>
+                                    <span class="image"><img src="{% static 'images/soccer/team-logo2.png' %}"
+                                            alt="main-match" /></span>
+                                </a>
+                                <div class="title">26 september / 8:45 PM</div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="seriea">
+                            <div class="amateurs-main-match">
+                                <div class="title">Premier League - Round 28</div>
+                                <a href="matches.html" class="team">
+                                    <span class="image"><img src="{% static 'images/soccer/team-logo1.png' %}"
+                                            alt="main-match" /></span>
+                                    <span class="info">
+                                        <span class="name">Team 1</span>
+                                        <span class="city">london</span>
+                                    </span>
+                                </a>
+                                <div class="score">
+                                    <span>3:2</span>
+                                </div>
+                                <a href="matches.html" class="team guest">
+                                    <span class="info">
+                                        <span class="name">Team 2</span>
+                                        <span class="city">London</span>
+                                    </span>
+                                    <span class="image"><img src="{% static 'images/soccer/team-logo2.png' %}"
+                                            alt="main-match" /></span>
+                                </a>
+                                <div class="title">26 september / 8:45 PM</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -397,29 +424,23 @@
                 ">
                             Round
                         </span>
-                        <select class="" name="round" id="round">
+                        <select class="" name="round" id="round" style="width: 60px;">
                             <option value="1" selected="selected">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
+                            {% for round in round_list %}
+                            <option value="{{round}}">{{round}}</option>
+                            {% endfor %}
                         </select>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="main-lates-matches" id="round1">
                         {% for match in matches %}
-                        <a href="/{{league}}/{{round}}/{{ match.pk }}/" class="item">
+                        <a href="/{{series_slug}}/{{round}}/{{ match.pk }}/" class="item">
                             <span class="championship">{{league}}</span>
                             <span class="teams-wrap">
                                 <span class="team">
                                     <span>
-                                        <img src="{% static 'images/common/team-logo1.png' %}" alt="team-image" />
+                                        <img src="{{match.fields.homelogo}}" alt="team-image" />
                                     </span>
                                     <span>{{match.fields.homename}}</span>
                                 </span>
@@ -428,7 +449,7 @@
                                 </span>
                                 <span class="team1">
                                     <span>{{match.fields.awayname}}</span>
-                                    <span><img src="{% static 'images/common/team-logo2.png' %}"
+                                    <span><img src="{{match.fields.awaylogo}}"
                                             alt="team-image" /></span>
                                 </span>
                             </span>
@@ -436,7 +457,7 @@
                             font-size: 12px;
                             color: #000000;
                             font-weight: 100;
-                            ">{{match.fields.starttime}}</span>
+                            ">{{match.fields.startdate}}</span>
                         </a>
                         {% endfor %}
                         
@@ -620,6 +641,11 @@
     <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 
     <script>
+        console.log("xyz")
+        $('.tab-filters > li > a').click(function(){
+            console.log($(this).text())
+        });
+
         $('#round').change(function(){
             var round = $(this).val();
             // console.log(round);
@@ -629,10 +655,10 @@
             // if(round==1){
             //     $('#round1').show();
             // }
-            url = "/{{league}}/" + round
+            url = "/{{series}}/" + round
             // console.log(url)
             $.ajax({
-                url: "/{{league}}/" + round,
+                url: "/{{series}}/" + round,
                 data: {
                     format: 'json'
                 },
@@ -649,9 +675,11 @@
                         var element = data['matches'][index-1]['fields']
                         console.log(data['matches'][index-1]['fields'])
                         $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(2)").text(element['homename']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team > span:nth-child(1) > img").attr("src",element['homelogo']);
                         $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(1)").text(element['awayname']);
+                        $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.team1 > span:nth-child(2) > img").attr("src",element['awaylogo']);
                         $("#round1 > a:nth-child(" + index + ") > span.teams-wrap > span.score > span").text(element['homegoals']+':'+element['awaygoals']);
-                        $("#round1 > a:nth-child(" + index + ") > span.game-result").text(element['starttime']);
+                        $("#round1 > a:nth-child(" + index + ") > span.game-result").text(element['startdate']);
                     }
                 },
                 type: 'GET'
